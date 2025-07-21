@@ -159,7 +159,7 @@ const Index = () => {
         <div className="text-center mt-6 animate-slide-up">
           <p className="text-muted-foreground text-sm flex items-center justify-center space-x-2 font-mono">
             <Lock className="w-4 h-4" />
-            <span>&gt; Data never logged or transmitted // Local processing only</span>
+          
           </p>
         </div>
       </div>
