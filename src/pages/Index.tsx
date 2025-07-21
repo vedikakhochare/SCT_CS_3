@@ -81,12 +81,6 @@ const Index = () => {
         weight: 15
       },
       {
-        id: 'length-long',
-        label: 'At least 12 characters',
-        met: pwd.length >= 12,
-        weight: 10
-      },
-      {
         id: 'no-common',
         label: 'Not a common password',
         met: !['password', '123456', 'qwerty', 'abc123', 'password123'].includes(pwd.toLowerCase()),
@@ -159,7 +153,7 @@ const Index = () => {
         <div className="text-center mt-6 animate-slide-up">
           <p className="text-muted-foreground text-sm flex items-center justify-center space-x-2 font-mono">
             <Lock className="w-4 h-4" />
-          
+            <span>&gt; Data never logged or transmitted // Local processing only</span>
           </p>
         </div>
       </div>
